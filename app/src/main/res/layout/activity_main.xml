@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.aliosm.examsandquizzesreminder.MainActivity">
+
+    <Button
+        android:id="@+id/addNewExamQuizBtn"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="addNewExamQuizBtnClick"
+        android:text="@string/add_new_exam_quiz"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/mainTitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/your_exams_quizzes"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/allRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="allRbClick"
+            android:text="@string/all"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/examsRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="examsClick"
+            android:text="@string/exams"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/quizzesRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="quizzesRbClick"
+            android:text="@string/quizzes"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/examsAndQuizzesLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

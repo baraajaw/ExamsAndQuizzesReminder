@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar">&#xf073;</string>
+    <string name="clock">&#xf017;</string>
+    <string name="plus">&#xf067;</string>
+    <string name="pencil">&#xf303;</string>
+    <string name="trash">&#xf2ed;</string>
+</resources>

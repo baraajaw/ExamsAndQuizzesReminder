@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Exams/Quizzes Reminder</string>
+
+    <string name="add_new_exam_quiz">Add new Exam/Quiz</string>
+
+    <string name="your_exams_quizzes">Your Exams/Quizzes</string>
+    <string name="your_exams">Your Exams</string>
+    <string name="your_quizzes">Your Quizzes</string>
+
+    <string name="all">All</string>
+    <string name="exams">Exams</string>
+    <string name="quizzes">Quizzes</string>
+
+    <string name="choose_type">Choose type</string>
+    <string name="exam">Exam</string>
+    <string name="quiz">Quiz</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="exam_name">Exam name</string>
+    <string name="quiz_name">Quiz name</string>
+    <string name="exam_date">Exam date</string>
+    <string name="quiz_date">Quiz date</string>
+    <string name="exam_time">Exam time</string>
+    <string name="quiz_time">Quiz time</string>
+    <string name="add_new_exam">Add new Exam</string>
+    <string name="add_new_quiz">Add new Quiz</string>
+    <string name="edit_exam">Edit Exam</string>
+    <string name="edit_quiz">Edit Quiz</string>
+    <string name="delete_exam">Delete Exam</string>
+    <string name="delete_quiz">Delete Quiz</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="hh_mm">HH:MM</string>
+</resources>
